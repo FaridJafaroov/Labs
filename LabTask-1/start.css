@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.primary-parent-box {
+    width: 1300px;
+    height: 650px;
+    /* border: 2px solid blue; */
+    margin-left: 15px;
+    text-align: center;
+
+    margin: 30px auto;
+}
+
+.box {
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+
+.first-box {
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+header {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+p {
+    padding: 15px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #fc0356;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon {
+    color: #fc0356;
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.second-icon {
+    color: #1ea843;
+    font-size: xx-large;
+
+}
+
+.second-button {
+    background-color: #1ea843;
+
+}
+
+.second-box {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.third-box {
+    text-align: center;
+}
+
+.third-icon {
+    color: #4677c7;
+    font-size: xx-large;
+}
+
+.third-button {
+    background-color: #4677c7;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
