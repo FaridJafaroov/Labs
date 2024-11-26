@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: inline-block;
+    width: 111.49px;
+    height: 20.66px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: xx-large;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    width: 77px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+li {
+    list-style-type: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.all-part-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.left-part-page {
+    position: absolute;
+    left: 90px;
+}
+
+.right-part-page {
+    position: absolute;
+    right: 90px;
+}
+
+.login-button {
+    border: 0px;
+    background-color: white;
+    color: #4CAF4F;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.signup-button {
+    width: 91px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    border: 0px;
+    background-color: #4CAF4F;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.first-part-of-main {
+    width: Fill (1, 440px)px;
+    height: Hug (599px)px;
+    padding: 96px 144px 96px 144px;
+    gap: 104px;
+    opacity: 0px;
+    background-color: #F5F7FA;
+}
+
+.first-part-of-main {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.register-button {
+    display: block;
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: 0px;
+    background-color: #4CAF4F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.any-text-first {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+}
+
+.any-text-second {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.some-of-texts {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+}
+
+
+.left-part-features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.left-part {
+    display: flex;
+
+}
+
+.heading-part {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-part-of-our-clients {
+    text-align: center;
+}
+
+.our-clients-part {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.body-text-span {
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+
+}
+
+.bottom-part-of-our-clients {
+    display: flex;
+    justify-content: space-evenly
+}
