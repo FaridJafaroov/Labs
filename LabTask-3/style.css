@@ -187,3 +187,278 @@ li {
     display: flex;
     justify-content: space-evenly
 }
+
+.system-community-part-bottom {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.system-community-part-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.system-community-part-text {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    max-width: 540px;
+}
+
+.system-community-part-subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.community-title {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #4D4D4D;
+    max-width: 170px;
+
+}
+
+.system-community-part {
+    margin-bottom: 100px;
+}
+
+.community-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #717171;
+    max-width: 250px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    width: Fixed (299px)px;
+    height: Hug (260px)px;
+    padding: 24px 32px 24px 32px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.apart {
+    max-width: 230px;
+}
+
+.pixelgrade-part-right {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+}
+
+.pixelgrade-part-head {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #4D4D4D;
+    max-width: 500px;
+}
+
+.pixelgrade-part-subtitles {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #717171;
+    max-width: 570px;
+}
+
+.pixelgrade-part-button {
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border: 0px;
+}
+
+.pixelgrade-part {
+    display: flex;
+    justify-content: center;
+}
+
+.pixelgrade-part-button-hint {
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.business-reinvent-part {
+    display: flex;
+    background-color: #F5F7FA;
+    padding: 64px 144px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.business-reinvent-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.business-reinvent-attributes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    gap: 40px;
+
+}
+
+.business-reinvent-text-one {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.business-reinvent-text-two {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.business-reinvent-subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #18191F;
+}
+
+.reinvent-icon-count {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+.reinvent-icon-subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+}
+
+.business-reinvent-attribute {
+    width: Hug (255px)px;
+    height: Hug (60px)px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.one-piece {
+    max-width: 200px;
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.two-piece {
+    max-width: 100px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.three-piece {
+    max-width: 200px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.four-piece {
+    display: flex;
+    max-width: 200px;
+    column-gap: 10px;
+}
+
+.about-part-of-main {
+    display: flex;
+    justify-content: center;
+    margin:50px 0;
+    column-gap: 70px;
+}
+
+.head-of-about {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #4D4D4D;
+    max-width: 600px;
+}
+
+.right-side-of-about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.texts-of-about {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #717171;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    max-width: 600px;
+
+}
+
+.button-of-about {
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #4CAF4F;
+    border: 0px;
+    color: white;
+}
