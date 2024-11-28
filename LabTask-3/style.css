@@ -418,7 +418,7 @@ li {
 .about-part-of-main {
     display: flex;
     justify-content: center;
-    margin:50px 0;
+    margin: 50px 0;
     column-gap: 70px;
 }
 
@@ -432,7 +432,7 @@ li {
     max-width: 600px;
 }
 
-.right-side-of-about{
+.right-side-of-about {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
@@ -462,3 +462,301 @@ li {
     border: 0px;
     color: white;
 }
+
+.information-part-of-main {
+    display: flex;
+    background-color: #F5F7FA;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 25px;
+}
+
+.first-text-of-information {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #717171;
+    max-width: 750px;
+}
+
+.right-side-of-information {
+    padding-top: 15px;
+}
+
+.text-part-of-information {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.icons-part-of-information {
+    display: flex;
+    column-gap: 40px;
+    margin-top: 25px;
+}
+
+
+
+.name-of-information {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4CAF4F;
+}
+
+.subtitle-of-information {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #89939E;
+}
+
+.meet-customer-emphasize {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+    text-decoration: none;
+}
+
+.meet-customers-information {
+    padding: 10px;
+}
+
+.title-and-text-part-of-marketing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.images-part-of-marketing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner-first-marketing {
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+.banner-second-marketing {
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+.banner-third-marketing {
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+.marketing-part-figure {
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+    background-color: #F5F7FA;
+
+
+}
+
+.title-of-marketing {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 50px;
+}
+
+.text-of-marketing {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+.image-part-text {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #717171;
+    max-width: 300px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.marketing-link-image {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4CAF4F;
+    text-decoration: none;
+}
+
+.third-text-marketing {
+    max-width: 270px;
+}
+
+.final-part-of-main {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.final-part-text {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    text-align: center;
+    color: #4D4D4D;
+    max-width: 700px;
+}
+
+.final-part-button {
+    width: 178px;
+    height: 52px;
+    border: 0px;
+    background-color: #4CAF4F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+
+}
+
+.final-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #263238;
+    padding: 64px 0px;
+    position: relative;
+}
+
+.company-components-footer,
+.support-components-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.texts-of-first-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitles-of-footer,
+.subtitles-of-footer-second {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.same-changes-footer {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+
+.company-component-footer {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.support-component-footer {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.email-footer {
+    width: 255px;
+    height: 40px;
+    top: 52px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0.2px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.245);
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+::placeholder {
+    color: #D9DBE1;
+}
+
+.all-subtitles-of-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.first-part-of-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.social-media-icons-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.symbol-footer-part {
+    position: absolute;
+    bottom: 175px;
+    right: 120px;
+}
+
+.second-part-of-footer {}
