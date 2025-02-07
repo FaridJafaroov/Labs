@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.first-part{
+    width: 700px;
+    border: 1px solid rgb(85, 85, 226);
+}
+
+.top-part{
+    height: 50px;
+    background-color: rgb(85, 85, 226);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.top-part h4{
+    color: white;
+    font-size: 20px;
+}
+
+.top-part i{
+    color: white;
+    font-size: 24px;
+}
+
+.bottom-part{
+    padding: 10px;
+}
+
+.bottom-part p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
